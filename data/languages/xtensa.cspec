@@ -55,15 +55,6 @@
         <pentry minsize="1" maxsize="4" extension="inttype">
           <register name="o2"/>
         </pentry>
-        <pentry minsize="5" maxsize="8" extension="inttype">
-          <addr space="join" piece1="o3" piece2="o2"/>
-        </pentry>
-        <pentry minsize="9" maxsize="12" extension="inttype">
-          <addr space="join" piece1="o4" piece2="o3" piece3="o2"/>
-        </pentry>
-        <pentry minsize="13" maxsize="16" extension="inttype">
-          <addr space="join" piece1="o5" piece2="o4" piece3="o3" piece4="o2"/>
-        </pentry>
     </output>
     <returnaddress>
         <register name="a0"/>
